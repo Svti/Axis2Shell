@@ -81,7 +81,7 @@ public class Utils {
 		try {
 			if (path!=null&&path.trim().length()>0) {
 				FileOutputStream fos=new FileOutputStream(new File(path));
-				InputStream inputStream =new Utils().getClass().getResourceAsStream("/resource/one.txt");
+				InputStream inputStream =new Utils().getClass().getResourceAsStream("/resource/one.jsp");
 				BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 				String temp = "";
 				while (reader.ready()) {
